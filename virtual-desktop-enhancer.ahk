@@ -346,6 +346,7 @@ OnDesktopSwitch(n:=1) {
 SwitchToDesktop(n:=1) {
     doFocusAfterNextSwitch=1
     _ChangeDesktop(n)
+    _ChangeAppearance(n)
 }
 
 MoveToDesktop(n:=1) {
